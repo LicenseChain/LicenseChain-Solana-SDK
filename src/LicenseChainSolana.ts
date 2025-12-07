@@ -13,7 +13,7 @@ export class LicenseChainSolana {
 
   constructor(config: SolanaConfig) {
     this.config = {
-      baseUrl: 'https://api.licensechain.com',
+      baseUrl: 'https://api.licensechain.app',
       rpcUrl: 'https://api.mainnet-beta.solana.com',
       timeout: 30000,
       retries: 3,

@@ -4,7 +4,7 @@ import { SolanaConfig } from '../src/types';
 // Example configuration
 const config: SolanaConfig = {
   apiKey: 'your-api-key-here',
-  baseUrl: 'https://api.licensechain.com',
+  baseUrl: 'https://api.licensechain.app',
   rpcUrl: 'https://api.mainnet-beta.solana.com',
   timeout: 30000,
   retries: 3

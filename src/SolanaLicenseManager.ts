@@ -51,8 +51,9 @@ export class SolanaLicenseManager {
         throw new SolanaValidationError('License key is required');
       }
 
-      const response = await this.makeRequest('POST', '/licenses/validate', {
-        licenseKey,
+      // Use /licenses/verify endpoint with 'key' parameter to match API
+      const response = await this.makeRequest('POST', '/licenses/verify', {
+        key: licenseKey,
         platform: 'solana'
       });
 
